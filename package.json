@@ -1,8 +1,7 @@
 {
-  "name": "first_koa",
+  "name": "static_web_page_template",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "static web page template for myself",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "http-server -o"
@@ -16,8 +15,18 @@
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-cli": "^6.18.0",
+    "babel-loader": "^6.2.10",
     "babel-polyfill": "^6.20.0",
     "babel-preset-env": "^1.1.8",
-    "http-server": "^0.9.0"
+    "del": "^2.2.2",
+    "eslint": "^3.13.1",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-stylus": "^2.6.0",
+    "gulp-webserver": "^0.9.1",
+    "http-server": "^0.9.0",
+    "stylus": "^0.54.5",
+    "webpack-stream": "^3.2.0"
   }
 }
