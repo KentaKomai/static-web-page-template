@@ -4,9 +4,10 @@
   "description": "static web page template for myself",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server -o"
+    "start": "http-server -o",
+    "init": "gulp build"
   },
-  "author": "KentaKomai",
+  "author": "kkomai",
   "license": "MIT",
   "dependencies": {
     "koa": "^1.2.4",
